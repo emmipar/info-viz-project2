@@ -1,31 +1,31 @@
-Country,1990 - 1994,1995 - 1999,2000 - 2004,2005 - 2009,2010 - 2014
-Argentina,
-Australia,
-Belarus,
-Brazil,
-Czech Republic,
-Chile,1
-China,
-Estonia,
-Finland,
-Georgia,
-Hungary,
-India,
-Japan,
-Mexico,
-Nigeria,
-Norway,
-Pakistan,
-Peru,
-Poland,
-Russia,
-Slovakia,
-South Africa,
-South Korea,
-Spain,
-Switzerland,
-Sweden,
-Turkey,
-Ukraine,
-United States,
-Venezuela,
+id,Country,1990 - 1994,1995 - 1999,2000 - 2004,2005 - 2009,2010 - 2014
+1,Argentina,39.7,26.4,35.1,40.1,33.7
+2,Australia,51.3,44.4,N/A,44.8,41
+3,Belarus,35.3,28.7,N/A,N/A,37.1
+4,Brazil,51.3,N/A,N/A,27,32.8
+5,Czech Rep.,29.5,26.2,N/A,N/A,N/A
+6,Chile,32.5,42,53.3,47.2,56.1,
+7,China,13.9,10.7,7.1,11.4,21.2
+8,Estonia,N/A,21.3,N/A,N/A,N/A
+9,Finland,N/A,34.7,N/A,42.6,N/A
+10,Georgia,N/A,36.2,N/A,39.3,32.4
+11,Hungary,N/A,33.5,N/A,33.4,N/A
+12,India,16.2,11.1,27.7,23.6,34.9
+13,Japan,23.6,39.8,42.3,40.3,42.3
+14,Mexico,27.9,35.5,49.7,54.9,59.2
+15,Nigeria,67.4,50.4,51.7,N/A,N/A
+16,Norway,N/A,39,N/A,48.8,N/A
+17,Pakistan,N/A,12.5,4.9,N/A,16.5
+18,Peru,N/A,28.5,22.8,32.3,37
+19,Poland,33.7,23,N/A,29.8,35
+20,Russia,27.6,25.8,N/A,29.3,29.4
+21,Slovakia,30.3,25.6,N/A,N/A,N/A
+22,South Africa,28.2,31.5,35.4,37.1,36.1
+23,South Korea,28.2,31.5,24.1,23.8,30.8
+24,Spain,37.3,30.2,38.2,43.5,44.8
+25,Switzerland,46.3,25.2,N/A,N/A,N/A
+26,Sweden,N/A,51.4,53.9,53.6,53.6
+27,Turkey,24,40.1,30.8,47.2,41.9
+28,Ukraine,N/A,N/A,N/A,29.6,36.9
+29,United States,N/A,42.3,42.5,37.3,38.9
+30,Venezuela,N/A,60.4,65.7,N/A,N/A

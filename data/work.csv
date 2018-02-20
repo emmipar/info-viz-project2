@@ -1,31 +1,31 @@
-Country,1990 - 1994,1995 - 1999,2000 - 2004,2005 - 2009,2010 - 2014
-Argentina,N/A,75.2,70.3,73.4,70.4,57.2
-Australia,N/A,50.8,N/A,34.5,30.2
-Belarus,82.2,46.7,N/A,N/A,65.3,64.6
-Brazil, 53.6, N/A,N/A,65.3,63.6
-Czech Republic,55.7,48.9,N/A,N/A,N/A
-Chile,75,64.3,74.8,63.3,56.3
-China,63.8,63.9,49,43.7,38.1
-Estonia,N/A,59.7,N/A,N/A,N/A
-Finland,N/A,48.5,N/A,40.1,N/A
-Georgia,N/A,57.8,N/A,77.9,73.1
-Hungary,N/A,50.5,N/A,55.1,N/A
-India,86.5,82.4,46.6,67.9,77.3
-Japan,38.6,53.5,N/A,47.4,52.1
-Mexico,66.9,63.4,86.1,84.9,87
-Nigeria,93.4,86.9,88.2,N/A,N/A
-Norway,N/A,58.8,N/A,52.8,N/A
-Pakistan,N/A,67.7,60.3,N/A,N/A
-Peru,N/A,72.8,68.2,71.2,69.1
-Poland,68.1,63.3,N/A,61,N/A
-Russia,44.5,48.6,N/A,48.4,45
-Slovakia,56.2,N/A,79.3,N/A,N/A
-South Africa,77.5,79.5,N/A,77.4,57.5
-South Korea,68.7,57.5,62.3,N/A,N/A
-Spain,65.4,59.1,55.5,51,9,62.4
-Switzerland,49.7,46.5,N/A,52.3,N/A
-Sweden,N/A,64.6,54.1,53.2,50.3
-Turkey,53.6,76,69.8,56,49.6
-Ukraine,N/A,47.2,N/A,39.1,52.6
-United States,55.2,53.6,32.2,35.6,N/A
-Venezuela,N/A,94.2,92.5,N/A,N/A
+id,Country,1990 - 1994,1995 - 1999,2000 - 2004,2005 - 2009,2010 - 2014
+1,Argentina,N/A,75.2,70.3,73.4,70.4,57.2
+2,Australia,N/A,50.8,N/A,34.5,30.2
+3,Belarus,82.2,46.7,N/A,N/A,65.3,64.6
+4,Brazil, 53.6, N/A,N/A,65.3,63.6
+5,Czech Rep.,55.7,48.9,N/A,N/A,N/A
+6,Chile,75,64.3,74.8,63.3,56.3
+7,China,63.8,63.9,49,43.7,38.1
+8,Estonia,N/A,59.7,N/A,N/A,N/A
+9,Finland,N/A,48.5,N/A,40.1,N/A
+10,Georgia,N/A,57.8,N/A,77.9,73.1
+11,Hungary,N/A,50.5,N/A,55.1,N/A
+12,India,86.5,82.4,46.6,67.9,77.3
+13,Japan,38.6,53.5,N/A,47.4,52.1
+14,Mexico,66.9,63.4,86.1,84.9,87
+15,Nigeria,93.4,86.9,88.2,N/A,N/A
+16,Norway,N/A,58.8,N/A,52.8,N/A
+17,Pakistan,N/A,67.7,60.3,N/A,N/A
+18,Peru,N/A,72.8,68.2,71.2,69.1
+19,Poland,68.1,63.3,N/A,61,N/A
+20,Russia,44.5,48.6,N/A,48.4,45
+21,Slovakia,56.2,N/A,79.3,N/A,N/A
+22,South Africa,77.5,79.5,N/A,77.4,57.5
+23,South Korea,68.7,57.5,62.3,N/A,N/A
+24,Spain,65.4,59.1,55.5,51,9,62.4
+25,Switzerland,49.7,46.5,N/A,52.3,N/A
+26,Sweden,N/A,64.6,54.1,53.2,50.3
+27,Turkey,53.6,76,69.8,56,49.6
+28,Ukraine,N/A,47.2,N/A,39.1,52.6
+29,United States,55.2,53.6,32.2,35.6,N/A
+30,Venezuela,N/A,94.2,92.5,N/A,N/A

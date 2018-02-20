@@ -14,12 +14,11 @@
 </style>
 <div class="description"><h2>This chart shows the percentage % of people who
   answered <span style="color: #B4D5DC">'very important'</span> to the statement of <br>
-  <span style="color: #B4D5DC">'how important is your <u>work</u> to you?'.</span></h2>
+  <span style="color: #B4D5DC">'how important is <u>religion</u> to you?'.</span></h2>
 </div>
 <div class ="learnings">
   <a href="learnings.html"><button type="submit">my less than 500 words</button></a>
-</div>
-<div class="button-container">
+</div><div class="button-container">
   <a href="index.html"><button type="submit">work</button></a>
   <a href ="family.html"><button type="submit">family</button></a>
   <a href ="friends.html"><button type="submit">friends</button></a>
@@ -48,7 +47,7 @@ var parcoords = d3.parcoords()("#example")
   .alpha(0.3);
 
 // load csv file and create the chart
-d3.csv('data/work.csv', function(data) {
+d3.csv('data/leisure.csv', function(data) {
   parcoords
     .data(data)
     .hideAxis(["id"])

@@ -7,18 +7,28 @@
 /* data table styles */
 #grid { height: 198px; }
 .row, .header { clear: left; font-size: 12px; line-height: 18px; height: 18px; }
-.row:nth-child(odd) { background: #E9E9E9; }
+.row:nth-child(odd) { background: #B4D5DC; }
 .header { font-weight: bold; }
 .cell { float: left; overflow: hidden; white-space: nowrap; width: 150px; height: 18px; }
 .col-0 { width: 180px; }
 </style>
-<a href="work.html"><button type="submit">work</button>
-<a href ="family.html"><button type="submit">family</button>
-<a href ="friends.html"><button type="submit">friends</button>
-<a href ="leisure.html"><button type="submit">friends</button>
-<button type="submit">2005-2009</button>
-<button type="submit">2010-2014</button>
-  <p>text here</p>
+<div class="description"><h2>This chart shows the percentage % of people who
+  answered <span style="color: #B4D5DC">'very important'</span> to the statement of <br>
+  <span style="color: #B4D5DC">'how important is <u>leisure time</u> for you?'.</span></h2>
+</div>
+<div class ="learnings">
+  <a href="learnings.html"><button type="submit">my less than 500 words</button></a>
+</div><div class="button-container">
+  <a href="index.html"><button type="submit">work</button></a>
+  <a href ="family.html"><button type="submit">family</button></a>
+  <a href ="friends.html"><button type="submit">friends</button></a>
+  <a href ="leisure.html"><button type="submit">leisure</button></a>
+  <a href ="politics.html"><button type="submit">politics</button></a>
+  <a href ="religion.html"><button type="submit">religion</button></a>
+  <a href ="happiness.html"><button type="submit">happiness</button></a>
+  <a href ="satisfaction.html"><button type="submit">life satisfaction</button></a>
+</div>
+
 <script src="lib/d3.min.js"></script>
 <script src="d3.parcoords.js"></script>
 <script src="lib/divgrid.js"></script>
@@ -26,11 +36,11 @@
 <div id="grid"></div>
 <script id="brushing">// quantitative color scale
 var blue_to_brown = d3.scale.linear()
-  .domain([9, 5])
+  .domain([1, 30])
   .range(["steelblue", "brown"])
   .interpolate(d3.interpolateLab);
 
-var color = function(d) { return blue_to_brown(d['economy (mpg)']); };
+var color = function(d) { return blue_to_brown(d['id']); };
 
 var parcoords = d3.parcoords()("#example")
   .color(color)
@@ -40,7 +50,7 @@ var parcoords = d3.parcoords()("#example")
 d3.csv('data/leisure.csv', function(data) {
   parcoords
     .data(data)
-    .hideAxis(["name"])
+    .hideAxis(["id"])
     .render()
     .brushMode("1D-axes");  // enable brushing
 
